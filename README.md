@@ -14,7 +14,7 @@ I will try my best to document such functions in order to make it clear which co
 I will also try to report the sources used if there are any.
 
 However, I want to warn you that (i) english is not my first language and (ii) I will not necessarily post "organised" code at the first commit.
-So, if there is something hard to understand or "mispelled", please be patient. I will probably fix it at a future commit.
+So, if there is something hard to understand, written in portugese or "mispelled", please be patient. I will probably fix it at a future commit.
 
 Contributing 
 ------------
