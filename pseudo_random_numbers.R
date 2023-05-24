@@ -1,4 +1,4 @@
-# univariate case
+# univariate case ----
 	# Gumpbell distribution
 		dgumpbell = function(x) {
 			# probability density of gumpbell in x
@@ -91,7 +91,7 @@
 			return(qweibull(u, c, alpha, xi))
 		}
 
-# multivariate case
+# multivariate case ----
 	# Multivariate normal based on Falk (1999)
 		rmnorm = function(n, mean = 0, S = 1) {
 			# Generate a multivariate normal
@@ -180,3 +180,9 @@
 				1, '+', min
 			))) # var-cov is aredy corected
 		}
+
+# Refs ----
+	# Michael Falk (1999) A simple approach to the generation of uniformly distributed random variables with prescribed correlations, Communications in Statistics - Simulation and Computation, 28:3, 785-791, DOI: 10.1080/03610919908813578
+
+	# Johnson, Kotz and Blakrishnan (????) Continuous univariate distributions. Vol I
+
