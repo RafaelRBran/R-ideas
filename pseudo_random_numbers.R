@@ -166,7 +166,7 @@
 			# Exact matrix
 			if (exact) {
 				S01 = 2*sin((pi/6)*S01)
-				if (!is.pd(S, warn = T, spd = F, tol = tol)) # in this case, tol is the same of diag(S01) - 1/12) == 0. Don't need to 
+				if (!is.pd(S, warn = T, spd = F, tol = tol)) # is.pd() from algebra.R file. in this case, tol is the same of diag(S01) - 1/12) == 0. Don't need to 
 					stop("[rmunif]: S01 corected is not PD")
 			}
 			
